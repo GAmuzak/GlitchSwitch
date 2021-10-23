@@ -52,9 +52,7 @@ public class ResetScene : MonoBehaviour
         CharacterController playerController = player.GetComponent<CharacterController>();
         Transform glitchBody = GameObject.FindWithTag("GlitchedBody").transform;
         playerController.enabled = false;
-        //Debug.Log($"Player:{player.position} GlitchedBody{glitchBody.position}");
         (player.transform.position, glitchBody.position) = (glitchBody.position, player.transform.position);
         playerController.enabled = true;
-        //Debug.Log($"After swapping Player:{player.position} GlitchedBody{glitchBody.position}");
     }
 }
