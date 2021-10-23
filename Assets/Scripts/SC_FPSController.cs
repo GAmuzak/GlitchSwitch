@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -11,7 +12,7 @@ public class SC_FPSController : MonoBehaviour
     private Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
-
+    private bool teleport1 = true;
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
@@ -42,7 +43,6 @@ public class SC_FPSController : MonoBehaviour
 
     void Update()
     {
-        RaycastHit hit;
 
         // We are grounded, so recalculate move direction based on axes
         Vector3 forward = transform.TransformDirection(Vector3.forward);
@@ -75,6 +75,7 @@ public class SC_FPSController : MonoBehaviour
         {
             moveDirection.y -= gravity * Time.deltaTime;
         }
+        
 
         // Move the controller
         characterController.Move(moveDirection * Time.deltaTime);
@@ -87,5 +88,9 @@ public class SC_FPSController : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
+
+
     }
+
+
 }
