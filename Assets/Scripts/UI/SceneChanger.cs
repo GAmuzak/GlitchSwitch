@@ -7,7 +7,7 @@ public class SceneChanger : MonoBehaviour
 {
     public void LoadScene(int sceneNumber)
     {
-        SceneManager.LoadScene(sceneNumber);
+        SceneManager.LoadScene($"Level{sceneNumber}");
     }
 
     public void Quit()
