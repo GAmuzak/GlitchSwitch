@@ -915,7 +915,9 @@ MonoBehaviour:
   gates:
   - {fileID: 1897215083}
   - {fileID: 1690275045}
-  wires: []
+  wires:
+  - {fileID: 355894165598242779}
+  - {fileID: 5366800996424399785}
   Activated: {r: 0, g: 0, b: 1, a: 1}
   DeActivated: {r: 1, g: 0, b: 0, a: 1}
   wireMaterial: {fileID: 2100000, guid: e2e7cecc801ed0d4883085ec3d217636, type: 2}
@@ -1138,7 +1140,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: e2e7cecc801ed0d4883085ec3d217636, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1386,7 +1388,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gates:
   - {fileID: 406205549}
-  wires: []
+  wires:
+  - {fileID: 7621133393181106101}
   Activated: {r: 0, g: 0, b: 1, a: 1}
   DeActivated: {r: 1, g: 0, b: 0, a: 1}
   wireMaterial: {fileID: 2100000, guid: e2e7cecc801ed0d4883085ec3d217636, type: 2}
@@ -1586,7 +1589,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: e2e7cecc801ed0d4883085ec3d217636, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1783,7 +1786,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: e2e7cecc801ed0d4883085ec3d217636, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
