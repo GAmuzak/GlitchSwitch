@@ -15,7 +15,11 @@ public class ButtonController : MonoBehaviour
 
     private void Start()
     {
-        buttonAnimator = GetComponent<Animator>();        
+        buttonAnimator = GetComponent<Animator>();
+        foreach (MeshRenderer wire in wires)
+        {
+            wireMaterial.color = DeActivated;
+        }
     }
 
     private void OnMouseDown()
@@ -42,10 +46,6 @@ public class ButtonController : MonoBehaviour
             wireMaterial.color = Activated;
         }
         yield return new WaitForSeconds(1f);
-        foreach (MeshRenderer wire in wires)
-        {
-            wireMaterial.color = DeActivated;
-        }
-        
+
     }
 }

@@ -431,16 +431,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
       propertyPath: gates.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
       propertyPath: wires.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
-      propertyPath: gates.Array.data[1]
+      propertyPath: gates.Array.data[0]
       value: 
       objectReference: {fileID: 1379920417}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: gates.Array.data[1]
+      value: 
+      objectReference: {fileID: 850886172}
     - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
       propertyPath: gates.Array.data[2]
       value: 
