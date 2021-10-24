@@ -258,9 +258,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gates:
   - {fileID: 0}
-  wire: {fileID: 0}
-  Activated: {fileID: 2100000, guid: e2e7cecc801ed0d4883085ec3d217636, type: 2}
-  DeActivated: {fileID: 2100000, guid: 2d6ebbc4e2dca7447a23aa5a4b1d6995, type: 2}
+  wires: []
+  Activated: {r: 0, g: 0, b: 1, a: 1}
+  DeActivated: {r: 1, g: 0, b: 0, a: 1}
+  wireMaterial: {fileID: 2100000, guid: e2e7cecc801ed0d4883085ec3d217636, type: 2}
 --- !u!1 &7963534666892503472
 GameObject:
   m_ObjectHideFlags: 0

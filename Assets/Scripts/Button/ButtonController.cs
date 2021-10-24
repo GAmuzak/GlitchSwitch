@@ -6,8 +6,9 @@ public class ButtonController : MonoBehaviour
 {
     [SerializeField] private List<GateController> gates;
     [SerializeField] private List<MeshRenderer> wires;
-    [SerializeField] private Material Activated;
-    [SerializeField] private Material DeActivated;
+    [SerializeField] private Color Activated = Color.blue;
+    [SerializeField] private Color DeActivated = Color.red;
+    [SerializeField] private Material wireMaterial;
     
 
     private Animator buttonAnimator;
@@ -38,12 +39,12 @@ public class ButtonController : MonoBehaviour
     {
         foreach (MeshRenderer wire in wires)
         {
-            wire.material = Activated;
+            wireMaterial.color = Activated;
         }
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(1f);
         foreach (MeshRenderer wire in wires)
         {
-            wire.material.color = DeActivated.color;
+            wireMaterial.color = DeActivated;
         }
         
     }
