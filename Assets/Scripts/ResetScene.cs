@@ -9,7 +9,6 @@ public class ResetScene : MonoBehaviour
     [SerializeField] private GameObject glitchedBody;
     private static ResetScene _instance;
     public static Vector3 oldPlayerPosition;
-    private bool teleport1 = true;
     public ResetScene Instance => _instance;
 
     private void Awake()
