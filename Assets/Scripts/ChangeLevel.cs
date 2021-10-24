@@ -10,6 +10,7 @@ public class ChangeLevel : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene($"Level{nextScene}");
+        if(other.CompareTag("Player"))
+            SceneManager.LoadScene($"Level{nextScene}");
     }
 }
