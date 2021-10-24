@@ -796,7 +796,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2040682520
 MonoBehaviour:
@@ -919,5 +919,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button
       objectReference: {fileID: 0}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: gates.Array.data[0]
+      value: 
+      objectReference: {fileID: 147988205}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}

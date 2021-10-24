@@ -12,7 +12,6 @@ public class SC_FPSController : MonoBehaviour
     private Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
-    private bool teleport1 = true;
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
