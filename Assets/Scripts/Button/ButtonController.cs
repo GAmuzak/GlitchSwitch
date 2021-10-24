@@ -20,6 +20,7 @@ public class ButtonController : MonoBehaviour
     {
         OnInteract();
         buttonAnimator.Play("ButtonPress", -1, 0f);
+        AudioManager.PlaySound(Sound.ButtonPress);
     }
 
     public void OnInteract()
