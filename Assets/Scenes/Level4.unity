@@ -373,6 +373,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: wires.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
       propertyPath: gates.Array.data[0]
       value: 
       objectReference: {fileID: 1508346827}
@@ -380,6 +384,10 @@ PrefabInstance:
       propertyPath: gates.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: wires.Array.data[0]
+      value: 
+      objectReference: {fileID: 649251791839957163}
     - target: {fileID: 7098502487885069375, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -595,6 +603,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: wires.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
       propertyPath: gates.Array.data[0]
       value: 
       objectReference: {fileID: 1508346827}
@@ -602,6 +614,14 @@ PrefabInstance:
       propertyPath: gates.Array.data[1]
       value: 
       objectReference: {fileID: 933312925}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: wires.Array.data[0]
+      value: 
+      objectReference: {fileID: 8628502786187678363}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: wires.Array.data[1]
+      value: 
+      objectReference: {fileID: 2380718650738525904}
     - target: {fileID: 7098502487885069375, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -790,6 +810,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: wires.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
       propertyPath: gates.Array.data[0]
       value: 
       objectReference: {fileID: 1876652274}
@@ -797,6 +821,14 @@ PrefabInstance:
       propertyPath: gates.Array.data[1]
       value: 
       objectReference: {fileID: 551876799}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: wires.Array.data[0]
+      value: 
+      objectReference: {fileID: 466608246221997783}
+    - target: {fileID: 5116987570117624116, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
+      propertyPath: wires.Array.data[1]
+      value: 
+      objectReference: {fileID: 1442450553947448685}
     - target: {fileID: 7098502487885069375, guid: e762d6ae14944024cb99a5fe9d56ceb5, type: 3}
       propertyPath: m_RootOrder
       value: 9

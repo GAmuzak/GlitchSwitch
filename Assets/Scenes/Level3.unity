@@ -1317,7 +1317,10 @@ MonoBehaviour:
   - {fileID: 935818229}
   - {fileID: 27963794}
   - {fileID: 1657259894}
-  wires: []
+  wires:
+  - {fileID: 7007178895180270709}
+  - {fileID: 7579043141970579411}
+  - {fileID: 5823805860517963868}
   Activated: {r: 0, g: 0, b: 1, a: 1}
   DeActivated: {r: 1, g: 0, b: 0, a: 1}
   wireMaterial: {fileID: 2100000, guid: e2e7cecc801ed0d4883085ec3d217636, type: 2}
@@ -1594,7 +1597,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gates:
   - {fileID: 1366091210}
-  wires: []
+  wires:
+  - {fileID: 6356434392474519325}
+  - {fileID: 0}
   Activated: {r: 0, g: 0, b: 1, a: 1}
   DeActivated: {r: 1, g: 0, b: 0, a: 1}
   wireMaterial: {fileID: 2100000, guid: e2e7cecc801ed0d4883085ec3d217636, type: 2}
