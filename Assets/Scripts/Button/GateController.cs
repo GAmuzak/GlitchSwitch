@@ -18,6 +18,7 @@ public class GateController : MonoBehaviour
         if (!canFlip) return;
         LeanTween.move(door, locationsDoor[state].position, time * Time.deltaTime / 10f).setEase(leanTweenType);
         state = 1 - state;
+        AudioManager.PlaySound(state == 1 ? Sound.DoorClose : Sound.DoorOpen);
         canFlip = false;
         StartCoroutine(DoorStateFlipCooldown());
     }
